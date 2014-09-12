@@ -3,7 +3,7 @@ package org.apache.hadoop.mapred.bft;
 import java.util.List;
 
 import org.apache.hadoop.mapred.TaskCompletionEvent;
-import org.apache.hadoop.mapreduce.TaskID;
+import org.apache.hadoop.mapred.TaskID;
 import org.json.simple.JSONObject;
 
 public interface VotingSystem {

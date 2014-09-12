@@ -293,7 +293,7 @@ public class Sha1Hash extends ShaAbstractHash {
 	}
 
 
-	byte[] text(FileSystem rfs, JobConf conf, String srcf) throws IOException {
+	public byte[] text(FileSystem rfs, JobConf conf, String srcf) throws IOException {
 		return generateHash(forMagic(new Path(srcf), conf, rfs));
 	}
 

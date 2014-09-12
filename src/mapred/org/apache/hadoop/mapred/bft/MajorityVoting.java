@@ -12,7 +12,7 @@ import java.util.Map;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.mapred.TaskCompletionEvent;
-import org.apache.hadoop.mapreduce.TaskID;
+import org.apache.hadoop.mapred.TaskID;
 import org.apache.hadoop.mapred.comm.JSONUtils;
 import org.json.simple.JSONObject;
 
